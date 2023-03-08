@@ -29,4 +29,25 @@ padding: 5px 12px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.password1 {
+padding-left: 200px;
+color:rgb(0, 0, 0);
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 100;
+
+}
+
+.password2 {
+background-color: rgba(240, 248, 255, 0.105);
+}
+.PasswordEnter {
+    display: block;
+    width: 50px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    border-color: rgb(90, 14, 141, 0.646);
+    background-color: rgba(240, 248, 255, 0.217);
+}
 

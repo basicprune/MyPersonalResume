@@ -17,10 +17,15 @@
             
 
             <p></p>
-            <button class="Button1" onclick="myFunction()">Click me</button>
+            <button  id="HomePage" class="Button1" onclick="myFunction()" hidden>Click me</button>
 
-            <button class="Button2" onclick="contactPage()">Click Me</button>
-            
+            <button id="ContactPage" class="Button2" onclick="contactPage()" hidden>Click Me</button>
+            <div>
+                <label class="password1" for="pass">Password :</label>
+                <input class="password2" type="password" id="pass" name="password"
+                       minlength="8" required>
+            </div>
+            <button class="PasswordEnter" onclick="passwordCheck()">Login</button>
             
             
         </body>
